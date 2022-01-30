@@ -1,0 +1,124 @@
+button.rec-dot {
+  background-color: #1c2237;
+  box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.8);
+  /* margin-bottom: 40px; */
+  margin: 0 20px;
+  margin-bottom: 40px;
+}
+
+button.rec-dot:hover,
+button.rec-dot:active,
+button.rec-dot:focus {
+  box-shadow: 0 0 1px 3px rgba(190, 202, 255, 0.5);
+}
+
+button.rec-arrow-left {
+  background-color: #ffffff;
+  margin-left: 10px;
+  /* display: none; */
+}
+
+button.rec-arrow-right {
+  background-color: #ffffff;
+  margin-right: 10px;
+  /* display: none; */
+}
+.button {
+  color: #fff;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.btn__proj {
+  background-color: #276afb;
+  color: #fff;
+  border: none;
+  padding: 12px 64px;
+  font-size: 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btn__proj:hover {
+  color: #fff;
+  background-color: #f00946;
+  transition: all 0.2s ease-out;
+}
+
+.carousel__container {
+  background-color: #1c2237;
+}
+
+.carousel__h2 {
+  /* color: #fff; */
+  text-align: center;
+}
+
+.carousel__h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.rec-carousel {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.carousel__img {
+  height: 350px;
+  border-radius: 2px;
+  margin-left: 25px;
+  margin-right: 25px;
+  float: left;
+}
+.carousel_text {
+  margin-top: 20px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.carousel__main {
+  height: 270px;
+  width: 270px;
+  margin-right: 40px;
+}
+
+.rec-item-wrapper {
+  width: 20px;
+}
+@media screen and (max-width: 1080px) {
+  button.rec-arrow-left {
+    display: none;
+  }
+  button.rec-arrow-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 966px) {
+  .carousel__img {
+    float: none;
+    max-width: 100%;
+    max-height: 20%;
+    /* border-radius: none;
+    margin-left: none;
+    margin-right: none; */
+    border-radius: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 20px; */
+    /* width: 50%; */
+  }
+
+  .btn__proj {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -3,7 +3,7 @@
 export const ProjectData = [
   {
     title: "Hardware Store",
-    description: `The Hardware store is a store mockup. On the home page it has a featured slideshow with all the products. You can view all the products or sort by category. You can click on each product to learn more about them. You can add Items to your cart which will show in the top right and then view your cart. You can then click buy now to see your past orders. If you are a Admin there is a section to add another product to your store.  `,
+    description: `The Hardware store is a store mockup. On the home page it has a featured slideshow with all the products. You can view all the products or sort by category. Clicking on each product will bring to to a page about them. Adding Items to your cart which will show in the top right  ho wmany are in your cart and then you can view your cart. Clicking buy now populates your past orders. If you are a Admin there is a section to add another product to your store.  `,
     img: "/images/HardwareStore.gif",
     code: "https://github.com/jakerfilut/phase-3-project-frontend",
   },

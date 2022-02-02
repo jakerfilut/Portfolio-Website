@@ -10,6 +10,7 @@ import { SiRubyonrails } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 
 function Tech() {
+  // console.log("test");
   const frontend = [
     { language: "HTML", icon: ImHtmlFive },
     { language: "JavaScript", icon: IoLogoJavascript },

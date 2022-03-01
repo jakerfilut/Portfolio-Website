@@ -11,8 +11,8 @@ export default styled.div`
   //   font-size: 4em;
   background: white;
 
-  @media screen and (max-width: 966px) {
-    height: 690px;
+  @media screen and (max-width: 1066px) {
+    height: 760px;
     display: flex;
     justify-content: center;
     align-items: center;

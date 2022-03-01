@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroSection.css";
 import { Button } from "../NavBar/Button";
+import Typical from "react-typical";
 
 function HeroSection({
   lightBg,
@@ -32,7 +33,21 @@ function HeroSection({
               <div className="home__hero-text-wrapper">
                 <div className="top-line">{topLine}</div>
                 <h1 className={lightText ? "heading" : "heading dark"}>
-                  {headline}
+                  {/* {headline} */}
+                  <Typical
+                    steps={[
+                      "I'm a Software Engineer",
+                      1000,
+                      "I'm a Full-Stack Developer",
+                      1000,
+                      "I'm a Entrepreneur",
+                      1000,
+                      "I'm a Adrenaline Junkie",
+                      1000,
+                    ]}
+                    loop={Infinity}
+                    wrapper="p"
+                  />
                 </h1>
                 <p
                   className={

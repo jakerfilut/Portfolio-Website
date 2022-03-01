@@ -41,6 +41,11 @@ function NewPoject({}) {
                 Github
               </a>
             </button>
+            <button className="btn__proj">
+              <a href={proj.demo} target="_blank" class="button">
+                Demo
+              </a>
+            </button>
           </div>
         </div>
       </Item>
